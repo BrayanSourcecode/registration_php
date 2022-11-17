@@ -1,0 +1,93 @@
+body{
+    margin:0px;
+    padding:0px;
+
+}
+
+.section{
+    
+    margin: auto;
+    margin-top: 3rem;
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    overflow: hidden;
+    border-radius: 20px 20px;
+    box-shadow: 15px 15px  30px black;
+
+}      
+.section__portada{
+    width: 50%;
+    height: 100%;
+    background-image: url(/FORMULARIO_REGISTRO/public/img/stock-photo-fingerprint-scanning-technology-concept-d-illustration-2110266848.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.section__registro{
+    width: 50%;
+    height:100%;
+}
+.section__titulo h1{
+    height: 0.1rem;
+
+}
+.section__titulo h3{
+    color: rgb(72, 71, 71);
+   
+}
+
+.section__titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section__formulario{
+
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.section__campo{
+    position: relative;
+}
+
+.section__icono{
+    position: absolute;
+    width: 2rem;
+    bottom:0.2rem;
+    left: 0.2rem;
+}
+.section__input{
+    padding-left: 2.5rem;
+    width: 20rem;
+    height: 2rem;
+    border-radius: 50px 50px ;
+    box-shadow: 10px 10px 20px black;
+}
+.section__registrarse{
+    width: 10rem;
+    height: 2rem;
+    margin-top: 2rem;
+    border-radius: 50px 50px;
+    box-shadow: 5px 5px 15px black;
+    background-color: blueviolet;
+    color: white;
+    font-size: large;
+}
+
+.alerta{
+    color: red;
+}
+
+.alerta--green{
+
+    color: green;
+}
+

@@ -1,0 +1,53 @@
+@media (min-width:0px) and (max-width:575px){
+
+    .section__portada{
+        width: 0%;
+    }
+
+    .section__registro{
+        width: 100%;
+    }
+
+    .section__input{
+
+        width: 15rem;
+    }
+  
+}
+
+@media (min-width:576px) and (max-width:767px){
+
+    .section__portada{
+        width: 0%;
+    }
+
+    .section__registro{
+        width: 100%;
+    }
+
+    .section__input{
+
+        width: 20rem;
+    }
+  
+}
+
+@media (min-width:768px) and (max-width:922px){
+
+    .section__portada{
+        width: 50%;
+    }
+
+    .section__registro{
+        width: 50%;
+    }
+
+    .section__input{
+
+        width: 15rem;
+    }
+  
+
+
+}
+  
